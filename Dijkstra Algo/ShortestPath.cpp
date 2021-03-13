@@ -91,3 +91,35 @@ int main()
     
    
 }
+
+// Input
+// 9           //number of nodes
+// 14         // number of edges
+// 0 1 4      //node1, node2, weight
+// 0 7 8
+// 1 7 11
+// 1 2 8
+// 7 8 7
+// 7 6 1
+// 2 8 2
+// 2 3 7
+// 2 5 4
+// 6 8 6
+// 6 5 2
+// 5 4 10
+// 3 5 14
+// 3 4 9
+
+// Output
+// node shortest distance from source node 0 
+// 0          0
+// 1          4
+// 2          12
+// 3          19
+// 4          21
+// 5          11
+// 6          9
+// 7          8
+// 8          14
+
+// size of ans vecotor = 11
