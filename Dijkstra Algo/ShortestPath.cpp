@@ -34,7 +34,7 @@ void ShortestPath(vector<vector<int>> & connections,int nodes){
    pq.push({0,0});
    min_distance[0] = 0;
    
-   while(!pq.empty()){//-------------->O(E)
+   while(!pq.empty()){
      auto temp = pq.top();
      pq.pop();
      s.insert(temp.second);
