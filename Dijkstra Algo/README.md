@@ -10,7 +10,7 @@
 * For negative weight cycle and edges "Bellman-Ford" can be used!
 
 
-#Time Complexity
+# Time Complexity
 * O(for each vertex using min heap: for each edge linearly: push vertices to min heap that edge points to)
 * V = number of vertices
 * O(V * (pop vertex from min heap + find unvisited vertices in edges * push them to min heap)).
