@@ -5,4 +5,4 @@
 * Time complexity O(E log V) E->number of edges and V vertex/nodes;
 * Applicable even in directed graph!
 * Cannot applicable in negative weight cycle,it may give correct answer for negative edges
-* for negative weight cycle and edges "Bellman-Ford" can be used!
+* For negative weight cycle and edges "Bellman-Ford" can be used!
