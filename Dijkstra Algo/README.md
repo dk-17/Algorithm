@@ -14,7 +14,7 @@
 # Time Complexity
 * O(for each vertex using min heap: for each edge linearly: push vertices to min heap that edge points to)
 * V = number of vertices
-* O(V * (pop vertex from min heap + find unvisited vertices in edges * push them to min heap)).
+* O('V' * (pop vertex from min heap + find unvisited vertices in edges * push them to min heap)).
 * E = number of edges on each vertex
 * O(V * (pop vertex from min heap + E * push unvisited vertices to min heap)). Note, that we can push the same node multiple times here before we get to "visit" it.
 * O(V * (log(heap size) + E * log(heap size)))
