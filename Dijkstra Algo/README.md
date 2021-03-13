@@ -1,3 +1,4 @@
+# Key points
 * Dijkstra using priority_queue.
 * The code calculate shortest distance form source to all nodes,
    But doesn't calculate path information.
@@ -20,6 +21,8 @@
 * O(V * ((E + 1) * log(heap size)))
 * O(V * (E * log(heap size)))
 * E = V because each vertex can reference all other vertices
+* i.e if you have vertices A,B,C then A can connect to B and C. And B can connect to A and C. And C can connect to A and B. So any vertex can connect to V - 1 total
+ vertices (except itself), so there can be V - 1 edges on each vertex, which is basically equal to V. So, E = V 
 * O(V * (V * log(heap size)))
 * O(V^2 * log(heap size))
 * heap size is V^2 because we push to it every time we want to update a distance and can have up to V comparisons for each vertex. E.g. for the last vertex, 1st  
@@ -28,5 +31,4 @@
 * O(V^2 * 2 * log(V))
 * O(V^2 * log(V))
 * V^2 is also a total number of edges, so if we let E = V^2 (as in the official naming), we will get the O(E * log(V))
-* if you have vertices A,B,C then A can connect to B and C. And B can connect to A and C. And C can connect to A and B. So any vertex can connect to V - 1 total
- vertices (except itself), so there can be V - 1 edges on each vertex, which is basically equal to V. So, E = V 
+
