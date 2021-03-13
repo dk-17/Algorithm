@@ -4,5 +4,5 @@
 * To calculate source toraget node-->break for loop when min distance node is equal to target node.
 * Time complexity O(E log V) E->number of edges and V vertex/nodes;
 * Applicable even in directed graph!
-* cannot applicable in negative weight cycle,it may give correct answer for negative edges
-*for negative weight cycle and edges "Bellman-Ford" can be used!
+* Cannot applicable in negative weight cycle,it may give correct answer for negative edges
+* for negative weight cycle and edges "Bellman-Ford" can be used!
