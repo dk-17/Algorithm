@@ -34,3 +34,4 @@
 
 # Leetcode questions
 * [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
+* [1786. Number of Restricted Paths From First to Last Node](https://leetcode.com/contest/weekly-contest-231/problems/number-of-restricted-paths-from-first-to-last-node/)
