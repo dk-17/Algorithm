@@ -32,5 +32,5 @@
 * O(`V^2` * `log(V)`)
 * `V^2` is also a total number of edges, so if we let `E = V^2` (as in the official naming), we will get the `O(E * log(V))`.
 
-#Leetcode questions
-[1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
+# Leetcode questions
+* [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
